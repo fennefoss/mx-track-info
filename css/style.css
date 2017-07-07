@@ -1,0 +1,36 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    margin:0 auto;
+    width: 1080px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media screen and (max-width: 1024px) {
+/* Styles */
+
+    .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    #map {
+        height: 100%;
+        width: 100%;
+    }
+}
