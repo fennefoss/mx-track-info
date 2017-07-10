@@ -8,6 +8,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -16,8 +17,22 @@ body {
 }
 
 #map {
-    height: 500px;
+    height: 600px;
     width: 100%;
+}
+
+.gm-fullscreen-control {
+    display: none;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -31,6 +46,20 @@ body {
 
     #map {
         height: 100%;
+        width: 100%;
+    }
+
+    .gm-bundled-control-on-bottom,
+    .gm-style-mtc {
+        display: none;
+    }
+
+    .top-bar {
+        position: fixed;
+        top: 0;
+        height: 50px;
+        background: white;
+        z-index: 100;
         width: 100%;
     }
 }
